@@ -1,6 +1,6 @@
 ---
-title: "Hi, I'm Introduction"
+title: "BITS"
 headless: true
 ---
 
-I'm a theme for Hugo.
+Bancroft Innovations and Technology Solutions LLC
