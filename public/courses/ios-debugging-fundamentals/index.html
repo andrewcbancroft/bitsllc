@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Website Description">
+<title>
+I Os Debugging Fundamentals - Introduction
+</title>
+
+
+
+        
+        <meta property="og:title" content="iOS Debugging Fundamentals - Introduction" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Website Description"/>
+<meta property="og:url" content="https://bitsllc.biz/courses/ios-debugging-fundamentals/"/>
+<meta property="og:site_name" content="Introduction"/>
+
+
+
+<meta property="og:image" content="https://bitsllc.biz/courses/ios-debugging-fundamentals/ios-debugging-fundamentals-title.png"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.7c5ea4c58470675743bf4b719a7e53c5c06c0e0d07c671ab54280399960db6b2.css" integrity="sha256-fF6kxYRwZ1dDv0txmn5TxcBsDg0HxnGrVCgDmZYNtrI=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+
+
+
+<link rel="stylesheet" href="https://bitsllc.biz/styles/owlCarousel.min.b1f26e29c43c61fe8b5a6f225b4ee7c5f969a7b33cfe512706271e07246d93d1.css" integrity="sha256-sfJuKcQ8Yf6LWm8iW07nxflpp7M8/lEnBiceByRtk9E=" crossorigin="anonymous" media="screen">
+
+
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+                <h1 class="bold-title is-1">iOS Debugging Fundamentals</h1>
+                
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">main</a>
+            
+
+            
+            
+
+            
+
+            
+                
+            
+
+            
+            
+            
+            
+            
+                
+                
+                
+                
+                  <a class="navbar-item" href="https://bitsllc.biz/courses/">
+                  
+                  Back to Courses
+                  
+                  </a>
+                
+                
+            
+            
+            
+            
+
+            
+            
+            <a class="navbar-item" href="/#contact">Contact</a>
+            
+            
+
+            
+
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+    <div class="container markdown top-pad">
+        
+        <div class="has-text-centered">
+            
+            
+                
+                    
+                    
+                        <img src="/courses/ios-debugging-fundamentals/ios-debugging-fundamentals-title_hu55b93ed3044fcbbcbc60e8018191c303_224135_1000x0_resize_box_3.png" class="img-responsive" alt="ios-debugging-fundamentals-title.png">
+                    
+                
+            
+        </div>
+        
+        <p>Bugs are bound to happen. Getting rid of them is an essential skill if you want to keep your sanity when building apps.</p>
+<p>In this course, you will learn a set of thinking skills to couple with the fundamental tools that Xcode provides you for finding and fixing flaws in your apps.</p>
+<p>🐞1.5 hours
+🦟To the point
+🐛Engaging storyline
+🐜Relevant demos</p>
+<p><i class="fas fa-video"></i> <a href="http://bit.ly/ios-debugging-fundamentals" target="_blank">iOS Debugging Fundamentals</a><a href="http://bit.ly/ios-debugging-fundamentals" target="_blank"><br /> <img src="/ios-debugging-fundamentals-title.png" alt="iOS Debugging Fundamentals" width="1024" height="576" class="alignnone size-large wp-image-13737"/></a></p>
+
+<h1 id="course-outline" class="anchor-link"><a href="#course-outline">Course Outline</a></h1>
+<p>First, you will learn to approach debugging situations with a set of principles for strategic problem solving.</p>
+<p>Next, you will discover how to configure breakpoints and inspect view hierarchies effectively.</p>
+<p>Finally, you will explore how to interpret a backtrace, glean valuable information from the Xcode debug area and console, locate changes in your codebase and simulate conditions that happen in the wild.</p>
+<p>When you are finished with this course, you will have the skills and knowledge to strategically and methodically reason about probable causes of defects that you experience at runtime.</p>
+
+<h2 id="1--debugging-as-strategic-problem-solving" class="anchor-link"><a href="#1--debugging-as-strategic-problem-solving">1 – Debugging as Strategic Problem Solving</a></h2>
+<p>Debugging means a lot of things to a lot of people.</p>
+<p>In this module, I will define the scope of debugging for you so that you’re clear on the skills you’ll walk away from this course with.</p>
+<p>You will begin to develop a problem solving mentality and learn a useful mnemonic for R.E.P.A.I.R.-ing broken apps.</p>
+<p>Learn how to categorize bugs into buckets for strategic resolution.</p>
+<p>Explore some of the most common sources of bugs to complete this module.</p>
+
+<h2 id="2--correcting-unmet-expectations" class="anchor-link"><a href="#2--correcting-unmet-expectations">2 – Correcting Unmet Expectations</a></h2>
+<p>Probabilistic thinking is the key component of a debugging mindset.</p>
+<p>Topics in this module include&hellip;</p>
+<ul>
+<li>Pausing an App to Gather Clues With Breakpoints</li>
+<li>Combining Problem Solving with Xcode Tools</li>
+<li>Managing Your Project’s Breakpoints</li>
+<li>Controlling Breakpoints by Defining Trigger Conditions</li>
+<li>Executing Actions When Breakpoints Are Triggered</li>
+<li>Inspecting User Interface Issues</li>
+</ul>
+
+<h2 id="3--addressing-app-crashes" class="anchor-link"><a href="#3--addressing-app-crashes">3 – Addressing App Crashes</a></h2>
+<p>When an app crashes, it’s because of a critical problem that can’t be recovered from.</p>
+<p>In this module you will work on the following:</p>
+<ul>
+<li>Understanding Exceptional Issues</li>
+<li>Inspecting the Crash Scene with the Backtrace and Console Output</li>
+<li>Pausing before Errors and Exceptions Cause Crashes</li>
+<li>Avoiding Errors that Cause Crashes</li>
+</ul>
+
+<h2 id="4--alleviating-anomalies" class="anchor-link"><a href="#4--alleviating-anomalies">4 – Alleviating Anomalies</a></h2>
+<p>Have you ever found yourself saying, “Something weird is going on” or “It used to work - what’s going on now??”</p>
+<p>Have you ever experienced one of those “intermittent” bugs that seem to present themselves rarely or inconsistently and are hard to even reproduce?</p>
+<p>Anomalous bugs can feel like they occur “out of nowhere”&hellip; but do they?</p>
+<p>To find out, you will explore these topics:</p>
+<ul>
+<li>Reasoning About Anomalous Bugs</li>
+<li>Inspecting App Changes</li>
+<li>Simulating Real-World Conditions With Xcode</li>
+</ul>
+
+<h1 id="feedback-welcome" class="anchor-link"><a href="#feedback-welcome">Feedback Welcome!</a></h1>
+<p>My unwavering goal is to help you filter the noise and learn as efficiently as possible.</p>
+<p>I welcome feedback on this course, and on other iOS development courses you might be interested in seeing in the Pluralsight library. Happy learning!</p>
+
+    </div>
+    
+    
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            Copyright © Bancroft Innovations and Technology Solutions LLC, 2022.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://bitsllc.biz/js/bundle.5c23c0437f001a469ca373a465a6f7487203d18e10cdff76d86a60af66d5ee28.js" integrity="sha256-XCPAQ38AGkaco3OkZab3SHID0Y4Qzf922Gpgr2bV7ig="></script>
+
+
+
+
+
+
+        
+        
+        
+
+
+
+<script src="https://bitsllc.biz/js/bundleOwlCarousel.bc6b73f0a36bf19c70c5df8fc352d322988ca2bc40743fb836ee7371d555c28a.js" integrity="sha256-vGtz8KNr8Zxwxd&#43;Pw1LTIpiMorxAdD&#43;4Nu5zcdVVwoo="></script>
+
+
+    </body>
+</html>
