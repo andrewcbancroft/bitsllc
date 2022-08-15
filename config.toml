@@ -1,5 +1,6 @@
 baseURL                          = "https://bitsllc.biz/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
+publishDir="docs"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
