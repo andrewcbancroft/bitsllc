@@ -1,0 +1,11 @@
+<div class="section" id="footer">
+    <div class="container has-text-centered">
+    {{ with .Site.Params.footerText }}
+        {{ . | markdownify }}
+    {{ else }}
+        <span class="footer-text">
+            Copyright © Bancroft Innovations and Technology Solutions LLC, 2022.
+        </span>
+    {{ end }}
+    </div>
+</div>
