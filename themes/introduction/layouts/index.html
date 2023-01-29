@@ -66,7 +66,7 @@
             <!-- Now for some cool projects -->
             {{ partial "home/courses.html" . }}
         {{ else if eq (os.Stat .File.Dir).Name "blog" }}
-            <!-- Let`s show some blog posts -->
+            <!-- Let's show some blog posts -->
             {{ partial "home/blog.html" . }}
         {{ else }}
 
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 {{ else }}
-                <div class="markdown has-text-centered">
+                <div class="markdown">
                     {{ .Content }}
                 </div>
                 {{ end }}
