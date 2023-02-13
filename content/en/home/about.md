@@ -9,7 +9,7 @@ At BITS, we believe technology should work for you. We strive to equip you to ta
 
 * **Technology consultation**: We offer consultation services to businesses seeking to leverage and implement technology solutions. We specialize in data analytics and software development with over 15 years of enterprise IT experience.
 
-* **iOS app development instruction**: We offer educational content and guidance for learners who want to learn iOS app development, including video tutorials, text-based guides, workshops, and one-on-one consultations.
+* **iOS app development instruction**: We offer educational content and guidance for learners who want to build iOS apps, including video tutorials, text-based guides, workshops, and one-on-one consultations.
 
 * **STEM education for K-12 students**: We offer tutoring, summer camps, and workshops designed to spark a passion for technology in the next generation and equip them for success in a technology-filled world.
 
