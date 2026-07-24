@@ -1,0 +1,10 @@
+# Single source of truth for the home page FAQ section and the FAQPage JSON-LD schema.
+questions:
+  - question: What services does BITS LLC offer?
+    answer: BITS offers technology consulting (data analytics and software development), iOS development education, and K-12 STEM education.
+  - question: Where is BITS LLC located?
+    answer: BITS is based in Ardmore, Oklahoma and serves Ardmore and surrounding communities. Consulting and education services are also available remotely.
+  - question: How do I get a consultation?
+    answer: Email andrew@bitsllc.biz with a short description of what you need. You will get a response with next steps and a time to talk.
+  - question: Who is behind BITS LLC?
+    answer: BITS is run by Andrew Bancroft, a technology consultant and Pluralsight author with more than 15 years of enterprise IT experience in data analytics, software development, and iOS development.

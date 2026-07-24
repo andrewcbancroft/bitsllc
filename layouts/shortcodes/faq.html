@@ -1,0 +1,8 @@
+<div class="faq-list">
+  {{- range site.Data.faq.questions }}
+  <details class="faq-item">
+    <summary class="faq-question">{{ .question }}</summary>
+    <p class="faq-answer">{{ .answer }}</p>
+  </details>
+  {{- end }}
+</div>

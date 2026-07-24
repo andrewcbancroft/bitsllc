@@ -22,9 +22,11 @@
                         <div class="card-image">
                             <figure class="image">
                                 <a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
+                                    {{ $courseTitle := .Title }}
                                     {{ with .Resources.ByType "image" }}
                                     {{ range first 1 (sort . "Params.weight") }}
-                                    <img class="img-responsive" src="{{ .Permalink }}" alt ="{{ .Name }}">
+                                    {{ $image := .Resize (printf "%s webp" $width) }}
+                                    <img class="img-responsive" src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" alt="{{ $courseTitle }} course title screen">
                                     {{ end }}
                                     {{ end }}
                                 </a>
@@ -32,9 +34,9 @@
                         </div>
                         {{ end }}
                         <div class="card-content has-text-centered top-pad">
-                            <h1><a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
+                            <h3><a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
                                 {{ .Title | markdownify }}
-                            </a></h1>
+                            </a></h3>
                             {{ if .Params.project_timeframe }}
                             <p class="fa-xs">{{ .Params.project_timeframe }}</p>
                             {{ end }}
@@ -59,7 +61,7 @@
         <div class="modal-card">
             {{ with .Title }}
             <header class="modal-card-header bottom-pad">
-                <h1 class="modal-card-title has-text-centered">{{ . }}</h1>
+                <h2 class="modal-card-title has-text-centered">{{ . }}</h2>
             </header>
             {{ end }}
             {{ if .Params.project_timeframe }}

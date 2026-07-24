@@ -1,0 +1,26 @@
+# Single source of truth for business facts used in JSON-LD schema and page content.
+# Keep these values in sync with the Google Business Profile.
+name: BITS LLC
+legalName: Bancroft Innovations and Technology Solutions LLC
+email: andrew@bitsllc.biz
+locality: Ardmore
+region: OK
+country: US
+founder:
+  name: Andrew Bancroft
+  jobTitle: Founder
+  sameAs:
+    - https://twitter.com/andrewcbancroft
+    - https://linkedin.com/in/andrewcbancroft
+    - https://www.andrewcbancroft.com
+sameAs:
+  - https://twitter.com/andrewcbancroft
+  - https://facebook.com/andrewcbancroft
+  - https://linkedin.com/in/andrewcbancroft
+services:
+  - name: Technology consulting
+    description: Data analytics and software development consulting backed by 15+ years of enterprise IT experience.
+  - name: iOS development education
+    description: Video courses, written guides, workshops, and one-on-one mentoring for developers building iOS apps.
+  - name: K-12 STEM education
+    description: Tutoring, summer camps, and workshops for students learning technology.

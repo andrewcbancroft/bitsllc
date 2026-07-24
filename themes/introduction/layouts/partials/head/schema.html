@@ -1,0 +1,80 @@
+{{- $biz := site.Data.business -}}
+{{- $base := site.BaseURL -}}
+{{- $bizID := printf "%s#business" $base -}}
+{{- $personID := printf "%s#founder" $base -}}
+
+{{- $person := dict
+      "@type" "Person"
+      "@id" $personID
+      "name" $biz.founder.name
+      "jobTitle" $biz.founder.jobTitle
+      "worksFor" (dict "@id" $bizID)
+      "sameAs" $biz.founder.sameAs
+-}}
+
+{{- $offers := slice -}}
+{{- range $biz.services -}}
+  {{- $offers = $offers | append (dict
+        "@type" "Offer"
+        "itemOffered" (dict "@type" "Service" "name" .name "description" .description)) -}}
+{{- end -}}
+
+{{- $business := dict
+      "@type" (slice "LocalBusiness" "ProfessionalService")
+      "@id" $bizID
+      "name" $biz.name
+      "legalName" $biz.legalName
+      "url" $base
+      "logo" (absURL "img/favicon-512.png")
+      "image" (absURL "img/og-image.png")
+      "email" $biz.email
+      "description" site.Params.description
+      "address" (dict
+        "@type" "PostalAddress"
+        "addressLocality" $biz.locality
+        "addressRegion" $biz.region
+        "addressCountry" $biz.country)
+      "areaServed" (dict "@type" "City" "name" (printf "%s, %s" $biz.locality $biz.region))
+      "founder" (dict "@id" $personID)
+      "sameAs" $biz.sameAs
+      "hasOfferCatalog" (dict
+        "@type" "OfferCatalog"
+        "name" "Services"
+        "itemListElement" $offers)
+-}}
+
+{{- $nodes := slice $business $person -}}
+
+{{- if and (eq .Section "courses") .IsPage -}}
+  {{- $course := dict
+        "@type" "Course"
+        "@id" (printf "%s#course" .Permalink)
+        "name" .Title
+        "description" (.Summary | plainify | chomp)
+        "url" .Permalink
+        "provider" (dict "@type" "Organization" "name" "Pluralsight" "url" "https://www.pluralsight.com/")
+        "author" (dict "@id" $personID)
+  -}}
+  {{- with .Resources.ByType "image" -}}
+    {{- $course = merge $course (dict "image" (index . 0).Permalink) -}}
+  {{- end -}}
+  {{- with .Params.pluralsight_url -}}
+    {{- $course = merge $course (dict "sameAs" .) -}}
+  {{- end -}}
+  {{- $nodes = $nodes | append $course -}}
+{{- end -}}
+
+{{- if .IsHome -}}
+  {{- with site.Data.faq -}}
+    {{- $questions := slice -}}
+    {{- range .questions -}}
+      {{- $questions = $questions | append (dict
+            "@type" "Question"
+            "name" .question
+            "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) -}}
+    {{- end -}}
+    {{- $nodes = $nodes | append (dict "@type" "FAQPage" "mainEntity" $questions) -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@graph" $nodes) | jsonify (dict "indent" "  ") | safeJS }}</script>

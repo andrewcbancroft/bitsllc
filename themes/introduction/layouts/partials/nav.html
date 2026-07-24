@@ -1,37 +1,31 @@
-<!-- Begin Nav bar -->
-<div class="container">
-    <hr>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        {{ $isHome := .Page.IsHome }}
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+<!-- Begin sticky site header -->
+{{ $isHome := .Page.IsHome }}
+<header class="site-header">
+    <div class="site-header-inner">
+        <a class="site-header-brand" href="{{ "" | relLangURL }}" aria-label="BITS LLC home">
+            <picture>
+                <source srcset="{{ "img/bits-logo-mark-dark.svg" | relURL }}" media="(prefers-color-scheme: dark)">
+                <img class="site-header-mark" src="{{ "img/bits-logo-mark-light.svg" | relURL }}" alt="BITS LLC">
+            </picture>
         </a>
-        <div class="navbar-menu {{ if $isHome }}has-content-centered{{ end }}" id="navMenu">
+
+        <a role="button" class="navbar-burger site-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+
+        <nav class="site-nav" id="navMenu" role="navigation" aria-label="main navigation">
             <!-- look for custom menu and include it -->
             {{ if .Site.Menus.main }}
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
-            <a class="navbar-item"  href="{{ .URL }}">
-                {{ .Pre }}
-                {{ .Name }}
-                {{ .Post }}
-            </a>
+            <a class="navbar-item" href="{{ .URL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
             {{ range .Children }}
-            <!-- TODO: style children diffrent then parents-->
-            <a class="navbar-item" href="{{ .URL }}">
-                {{ .Pre }}
-                {{ .Name }}
-                {{ .Post }}
-            </a>
+            <a class="navbar-item" href="{{ .URL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
             {{ end }}
             {{ else }}
-            <a class="navbar-item" href="{{ .URL }}">
-                {{ .Pre }}
-                {{ .Name }}
-                {{ .Post }}
-            </a>
+            <a class="navbar-item" href="{{ .URL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
             {{ end }}
             {{ end }}
             {{ else }}
@@ -54,7 +48,6 @@
             {{ range sort $pages "Params.weight" }}
             {{ if ne .Name "contact.md" }}
             {{ if eq (os.Stat .File.Dir).Name "courses" }}
-                <!-- Now for some cool projects -->
                 {{ if $isHome }}
                 <a class="navbar-item" href="{{ printf "#%s" ( .Title | urlize) | relLangURL }}">{{ .Title | markdownify }}</a>
                 {{ else }}
@@ -64,15 +57,12 @@
                   {{ if $pageIsInProjects }}
                   {{ i18n "nav_backToSection" . }}
                   {{ else }}
-                  <!-- fix-224 -->
                   {{ .Title }}
-                  <!-- end fix-224 -->
                   {{ end }}
                   </a>
                 {{ end }}
                 {{ end }}
             {{ else if eq (os.Stat .File.Dir).Name "blog" }}
-                <!-- Let`s show some blog posts -->
                 {{ if $isHome }}
                 <a class="navbar-item" href="{{ printf "#%s" ( .Title | urlize) | relLangURL }}">{{ .Title | markdownify }}</a>
                 {{ else }}
@@ -88,7 +78,7 @@
                 {{ end }}
                 {{ end }}
             {{ else }}
-            <a class="navbar-item" href="{{ if $isHome }}#{{ .File.TranslationBaseName }}{{ else }}{{ printf "#%s" (.File.TranslationBaseName | urlize) | relLangURL }}{{ end }}">{{ .Title | markdownify }}</a>
+            <a class="navbar-item" href="{{ if $isHome }}#{{ .File.TranslationBaseName }}{{ else }}{{ printf "#%s" (.File.TranslationBaseName | urlize) | relLangURL }}{{ end }}">{{ .LinkTitle | markdownify }}</a>
             {{ end }}
             {{ end }}
             {{ end }}
@@ -110,8 +100,7 @@
             <a class="navbar-item" href="{{ .Site.RSSLink }}"><i class="fas fa-rss"></i></a>
             {{ end }}
             {{ end }}
-        </div>
-    </nav>
-    <hr>
-</div>
-<!-- End Nav bar -->
+        </nav>
+    </div>
+</header>
+<!-- End sticky site header -->

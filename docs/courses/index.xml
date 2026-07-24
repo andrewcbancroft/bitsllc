@@ -1,81 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Courses on BITS LLC</title>
-    <link>https://bitsllc.biz/courses/</link>
-    <description>Recent content in Courses on BITS LLC</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bitsllc.biz/courses/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>iOS 14: Getting Started</title>
-      <link>https://bitsllc.biz/courses/ios-14-getting-started/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bitsllc.biz/courses/ios-14-getting-started/</guid>
-      <description>Developing for iOS is a valuable and in-demand skill, but if you haven&amp;rsquo;t developed in the Apple world before, it can be surprisingly different.
-In this course, iOS 14: Getting Started, you&amp;rsquo;ll quickly get up and running using Xcode 12, Swift 5, and SwiftUI to build great iOS apps and tap into the latest features in iOS 14.
-iOS 14 Getting Started
-Course OutlineFirst, you&amp;rsquo;ll see the tools and learn how to create iOS apps with adaptive user interfaces that work on multiple devices.</description>
-    </item>
-    
-    <item>
-      <title>Implementing In-App Purchases on iOS</title>
-      <link>https://bitsllc.biz/courses/implementing-in-app-purchases-on-ios/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bitsllc.biz/courses/implementing-in-app-purchases-on-ios/</guid>
-      <description>Monetizing apps is challenging. In this course, Implementing In-App Purchases on iOS, you’ll learn to offer digital products and services directly within your app as in-app purchases.
-Implementing In-App Purchases on iOS
-Course OutlineFirst, you’ll explore how to translate business requirements into digital products and configure them in App Store Connect and Xcode.
-Next, you’ll discover how to build and test a store within your app using StoreKit.
-Finally, you’ll learn how to make sure purchases made within your app are authentic, and unlock content that’s been purchased by your users.</description>
-    </item>
-    
-    <item>
-      <title>iOS Debugging Fundamentals</title>
-      <link>https://bitsllc.biz/courses/ios-debugging-fundamentals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bitsllc.biz/courses/ios-debugging-fundamentals/</guid>
-      <description>Bugs are bound to happen. Getting rid of them is an essential skill if you want to keep your sanity when building apps.
-In this course, you will learn a set of thinking skills to couple with the fundamental tools that Xcode provides you for finding and fixing flaws in your apps.
-🐞1.5 hours 🦟To the point 🐛Engaging storyline 🐜Relevant demos
-iOS Debugging Fundamentals
-Course OutlineFirst, you will learn to approach debugging situations with a set of principles for strategic problem solving.</description>
-    </item>
-    
-    <item>
-      <title>iOS Data Persistence: The Big Picture</title>
-      <link>https://bitsllc.biz/courses/ios-data-persistence-the-big-picture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bitsllc.biz/courses/ios-data-persistence-the-big-picture/</guid>
-      <description>We&amp;rsquo;ve all been there. Do a search on the topic of &amp;ldquo;saving data in iOS” and you&amp;rsquo;ll get dozens of search results mentioning at least six different frameworks and platforms, and a month’s worth of reading.
-Wouldn&amp;rsquo;t it be nice to distill the possibilities down into just what you need in order to start down a path for persisting data in your app?
-&amp;ldquo;iOS Data Persistence: The Big Picture” will be worth the hour of your time.</description>
-    </item>
-    
-    <item>
-      <title>CloudKit Fundamentals</title>
-      <link>https://bitsllc.biz/courses/cloudkit-fundamentals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bitsllc.biz/courses/cloudkit-fundamentals/</guid>
-      <description>At the core of developing a seamless and collaborative data sharing experience for Apple’s platforms is a thorough knowledge of CloudKit.
-In this course, you’ll learn to leverage Apple’s flagship framework to achieve your app’s remote data storage and data sharing requirements.
-First, you’ll learn how to configure CloudKit in your Xcode project and how to save, query, update, and delete data that your users store in iCloud.
-Next, you’ll explore how to synchronize data across a user’s devices.</description>
-    </item>
-    
-    <item>
-      <title>Core Data Fundamentals with Swift</title>
-      <link>https://bitsllc.biz/courses/core-data-fundamentals-swift/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bitsllc.biz/courses/core-data-fundamentals-swift/</guid>
-      <description>Core Data is an extremely powerful framework for managing and persisting data on your users&amp;rsquo; devices. And let&amp;rsquo;s face it: saving data to your users&amp;rsquo; devices is inevitable. The question is, which data management and persistence technology you use when the time comes for you to tackle this challenge?
-&amp;ldquo;Core Data Fundamentals with Swift&amp;rdquo; will give you the essential skills you need to architect an app to use Core Data.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Courses on BITS LLC</title>
+		<link>https://www.bitsllc.biz/courses/</link>
+		<description>Recent content in Courses on BITS LLC</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.bitsllc.biz/courses/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>iOS 14: Getting Started</title>
+				<link>https://www.bitsllc.biz/courses/ios-14-getting-started/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.bitsllc.biz/courses/ios-14-getting-started/</guid>
+				<description>&lt;p&gt;Developing for iOS is a valuable and in-demand skill, but if you haven&amp;rsquo;t developed in the Apple world before, it can be surprisingly different.&lt;/p&gt;&#xA;&lt;p&gt;In this course, iOS 14: Getting Started, you&amp;rsquo;ll quickly get up and running using Xcode 12, Swift 5, and SwiftUI to build great iOS apps and tap into the latest features in iOS 14.&lt;/p&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.pluralsight.com/courses/ios-14-fundamentals&#34;&gt;Watch iOS 14: Getting Started on Pluralsight&lt;/a&gt;&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 id=&#34;course-outline&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#course-outline&#34;&gt;Course Outline&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;First, you&amp;rsquo;ll see the tools and learn how to create iOS apps with adaptive user interfaces that work on multiple devices.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Implementing In-App Purchases on iOS</title>
+				<link>https://www.bitsllc.biz/courses/implementing-in-app-purchases-on-ios/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.bitsllc.biz/courses/implementing-in-app-purchases-on-ios/</guid>
+				<description>&lt;p&gt;Monetizing apps is challenging. In this course, Implementing In-App Purchases on iOS, you&amp;rsquo;ll learn to offer digital products and services directly within your app as in-app purchases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.pluralsight.com/courses/implementing-in-app-purchases-ios&#34;&gt;Watch Implementing In-App Purchases on iOS on Pluralsight&lt;/a&gt;&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 id=&#34;course-outline&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#course-outline&#34;&gt;Course Outline&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;First, you&amp;rsquo;ll explore how to translate business requirements into digital products and configure them in App Store Connect and Xcode.&lt;/p&gt;&#xA;&lt;p&gt;Next, you&amp;rsquo;ll discover how to build and test a store within your app using StoreKit.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>iOS Debugging Fundamentals</title>
+				<link>https://www.bitsllc.biz/courses/ios-debugging-fundamentals/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.bitsllc.biz/courses/ios-debugging-fundamentals/</guid>
+				<description>&lt;p&gt;Bugs are bound to happen. Getting rid of them is an essential skill if you want to keep your sanity when building apps.&lt;/p&gt;&#xA;&lt;p&gt;In this course, you will learn a set of thinking skills to couple with the fundamental tools that Xcode provides you for finding and fixing flaws in your apps.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🐞 1.5 hours&lt;/li&gt;&#xA;&lt;li&gt;🦟 To the point&lt;/li&gt;&#xA;&lt;li&gt;🐛 Engaging storyline&lt;/li&gt;&#xA;&lt;li&gt;🐜 Relevant demos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.pluralsight.com/courses/ios-debugging-fundamentals&#34;&gt;Watch iOS Debugging Fundamentals on Pluralsight&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>iOS Data Persistence: The Big Picture</title>
+				<link>https://www.bitsllc.biz/courses/ios-data-persistence-the-big-picture/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.bitsllc.biz/courses/ios-data-persistence-the-big-picture/</guid>
+				<description>&lt;p&gt;We&amp;rsquo;ve all been there. Do a search on the topic of &amp;ldquo;saving data in iOS&amp;rdquo; and you&amp;rsquo;ll get &lt;em&gt;dozens&lt;/em&gt; of search results mentioning at least six different frameworks and platforms, and a month&amp;rsquo;s worth of reading.&lt;/p&gt;&#xA;&lt;p&gt;Wouldn&amp;rsquo;t it be nice to distill the possibilities down into &lt;em&gt;just what you need&lt;/em&gt; in order to start down a path for persisting data in your app?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/ios-data-persistence-big-picture&#34;&gt;iOS Data Persistence: The Big Picture&lt;/a&gt; will be worth the hour of your time.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CloudKit Fundamentals</title>
+				<link>https://www.bitsllc.biz/courses/cloudkit-fundamentals/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.bitsllc.biz/courses/cloudkit-fundamentals/</guid>
+				<description>&lt;p&gt;At the core of developing a seamless and collaborative data sharing experience for Apple&amp;rsquo;s platforms is a thorough knowledge of CloudKit.&lt;/p&gt;&#xA;&lt;p&gt;In this course, you&amp;rsquo;ll learn to leverage Apple&amp;rsquo;s flagship framework to achieve your app&amp;rsquo;s remote data storage and data sharing requirements.&lt;/p&gt;&#xA;&lt;p&gt;First, you&amp;rsquo;ll learn how to configure CloudKit in your Xcode project and how to save, query, update, and delete data that your users store in iCloud. Next, you&amp;rsquo;ll explore how to synchronize data across a user&amp;rsquo;s devices. Finally, you&amp;rsquo;ll discover how to handle CloudKit errors, test your app on physical devices, and deploy to production.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Core Data Fundamentals with Swift</title>
+				<link>https://www.bitsllc.biz/courses/core-data-fundamentals-swift/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.bitsllc.biz/courses/core-data-fundamentals-swift/</guid>
+				<description>&lt;p&gt;Core Data is an extremely powerful framework for managing and persisting data on your users&amp;rsquo; devices. And let&amp;rsquo;s face it: saving data to your users&amp;rsquo; devices is inevitable. The question is, which data management and persistence technology do you use when the time comes for &lt;em&gt;you&lt;/em&gt; to tackle this challenge?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/swift-core-data-fundamentals&#34;&gt;Core Data Fundamentals with Swift&lt;/a&gt; will give you the essential skills you need to architect an app to use Core Data.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

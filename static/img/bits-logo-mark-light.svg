@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1066 872" role="img" aria-label="BITS LLC logo mark">
+  <g>
+    <rect x="40" y="40" width="76" height="76" rx="10" fill="#1668A8"/>
+    <rect x="140" y="40" width="76" height="76" rx="10" fill="#06B6D4"/>
+    <rect x="240" y="40" width="76" height="76" rx="10" fill="#1668A8"/>
+    <rect x="340" y="40" width="76" height="76" rx="10" fill="#06B6D4"/>
+    <rect x="140" y="140" width="76" height="76" rx="10" fill="#1668A8"/>
+    <rect x="240" y="140" width="76" height="76" rx="10" fill="#06B6D4"/>
+    <rect x="340" y="140" width="76" height="76" rx="10" fill="#1668A8"/>
+    <rect x="240" y="240" width="76" height="76" rx="10" fill="#1668A8"/>
+    <rect x="340" y="240" width="76" height="76" rx="10" fill="#06B6D4"/>
+    <rect x="340" y="340" width="76" height="76" rx="10" fill="#1668A8"/>
+  </g>
+  <path fill="#1668A8" d="M459 40 L803 40 C900 40 992 133.5 992 232 C992 342.7 935.3 372 891 408 C956.9 426.6 1024.5 484.4 1024.5 592 C1024.5 714.4 925.3 832 822 832 L459 832 Z M592 163 L592 350 L742.7 350 C797 350 851.2 327.5 851.2 243 C851.2 179.8 797 163 742.7 163 Z M592 475 L592 704 L747.5 704 C835.8 704 881.3 652.5 881.3 581.3 C881.3 519.6 835.8 475 747.5 475 Z"/>
+</svg>

@@ -1,8 +1,12 @@
 html, body
     background-color: $background
 
+body
+    padding-top: 3.25rem
+
 html
     scroll-behavior: smooth
+    scroll-padding-top: 4rem
 
 html.modal-open
     overflow: hidden
@@ -33,7 +37,7 @@ a
     &:active
         color: $primary
 
-h1, h2, .title, .subtitle
+h1, h2, h3, .title, .subtitle
     color: $h-color
 
 p
@@ -78,6 +82,82 @@ details[open] summary
     border-radius: 0px
     border: none
     box-shadow: none
+
+.hero-logo
+    display: block
+    margin: 0 auto
+    width: 100%
+    max-width: 460px
+    height: auto
+    border: none
+    border-radius: 0
+    box-shadow: none
+
+.nav-logo
+    height: 1.6rem
+    width: auto
+    border: none
+    border-radius: 0
+    box-shadow: none
+
+.service-grid
+    margin-top: 1rem
+
+.service-card
+    height: 100%
+    padding: 1.5rem
+    border: 1px solid $secondary
+    border-radius: 12px
+
+.service-icon
+    display: block
+    color: $primary
+    font-size: 1.7rem
+    margin-bottom: 0.75rem
+
+.service-title
+    color: $h-color
+    font-weight: 600
+    font-size: 1.15rem
+    margin-bottom: 0.4rem
+
+.service-desc
+    color: $body-color
+    font-size: 0.95rem
+    line-height: 1.6
+
+.faq-list
+    max-width: 720px
+    margin: 0 auto
+    text-align: left
+
+.faq-item
+    border: 1px solid $secondary
+    border-radius: 12px
+    padding: 1rem 1.25rem
+    margin-bottom: 0.75rem
+
+.faq-question
+    color: $h-color
+    font-weight: 600
+    cursor: pointer
+
+.faq-answer
+    color: $body-color
+    margin-top: 0.75rem
+    line-height: 1.6
+
+.cta-button
+    display: inline-block
+    background-color: $primary
+    color: $on-primary
+    padding: 0.7rem 1.6rem
+    border-radius: 8px
+    font-weight: 600
+    font-size: 1rem
+    &:hover
+        color: $on-primary
+        opacity: 0.92
 
 .hidden
     display: none
@@ -149,22 +229,75 @@ details[open] summary
         vertical-align: baseline
         margin: 0 5px
 
-.navbar
+.site-header
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 30
     background-color: $navbar-background-color
+    border-bottom: 1px solid $secondary
 
-.navbar-burger
-    margin-right: auto
+.site-header-inner
+    position: relative
+    max-width: 960px
+    margin: 0 auto
+    padding: 0.5rem 1.5rem
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.site-header-brand
+    display: inline-flex
+    align-items: center
+    line-height: 0
+
+.site-header-mark
+    height: 2rem
+    width: auto
+    display: block
+    border: none
+    border-radius: 0
+    box-shadow: none
+
+.site-nav
+    display: flex
+    align-items: center
+    gap: 0.15rem
+
+.site-burger
+    display: none
     color: $primary
-
-.navbar-burger:hover
-    background-color: $navbar-background-color
+    margin: 0
 
 .navbar-item
     text-transform: uppercase
     font-size: 0.875rem
     color: $body-color
+    padding: 0.35rem 0.7rem
     &:hover, &:active
+        color: $primary
         background-color: $navbar-background-color !important
+
++touch
+    .site-burger
+        display: block
+    .site-nav
+        display: none
+        position: absolute
+        top: 100%
+        left: 0
+        right: 0
+        flex-direction: column
+        align-items: stretch
+        gap: 0
+        background-color: $navbar-background-color
+        border-bottom: 1px solid $secondary
+        padding: 0.5rem 1rem
+        &.is-active
+            display: flex
+        .navbar-item
+            padding: 0.6rem 0.5rem
 
 .owl-nav
     height: 50px
@@ -237,7 +370,7 @@ details[open] summary
         font-size: $size-6
     a
         &:hover
-            color: $secondary
+            color: $link-hover
     ul
         margin-bottom: 1.25rem
         list-style: disc

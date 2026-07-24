@@ -7,11 +7,11 @@
             <div class="owl-carousel owl-theme">
             {{ end }}
                 {{ range sort . "Params.weight" }}
-                    {{ $image := .Resize "1000x" }}
+                    {{ $image := .Resize "1000x webp" }}
                     {{ if $moreThanOneImage }}
                     <div class="item owl-height">
                     {{ end }}
-                        <img src="{{ $image.RelPermalink }}" class="img-responsive" alt="{{ $image.Name }}">
+                        <img src="{{ $image.RelPermalink }}" class="img-responsive" alt="{{ $.Title }} course title screen">
                     {{ if $moreThanOneImage }}
                     </div>
                     {{ end }}

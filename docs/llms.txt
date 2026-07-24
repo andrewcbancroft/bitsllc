@@ -1,0 +1,25 @@
+# BITS LLC
+
+> BITS LLC (Bancroft Innovations and Technology Solutions LLC) is a technology services company based in Ardmore, Oklahoma. BITS provides technology consulting, iOS development education, and K-12 STEM education for Ardmore and surrounding communities.
+
+## Services
+
+- [Technology consulting](https://www.bitsllc.biz/): Data analytics and software development consulting backed by 15+ years of enterprise IT experience. Help choosing and implementing the right technology.
+- [iOS development education](https://www.bitsllc.biz/courses/): Video courses, written guides, workshops, and one-on-one mentoring for developers building iOS apps.
+- [K-12 STEM education](https://www.bitsllc.biz/): Tutoring, summer camps, and workshops for students learning technology.
+
+## Courses
+
+Andrew Bancroft is a Pluralsight author. Published iOS development courses:
+
+- [CloudKit Fundamentals](https://www.bitsllc.biz/courses/cloudkit-fundamentals/)
+- [Core Data Fundamentals with Swift](https://www.bitsllc.biz/courses/core-data-fundamentals-swift/)
+- [iOS Data Persistence: The Big Picture](https://www.bitsllc.biz/courses/ios-data-persistence-the-big-picture/)
+- [Implementing In-App Purchases on iOS](https://www.bitsllc.biz/courses/implementing-in-app-purchases-on-ios/)
+- [iOS 14 Getting Started](https://www.bitsllc.biz/courses/ios-14-getting-started/)
+- [iOS Debugging Fundamentals](https://www.bitsllc.biz/courses/ios-debugging-fundamentals/)
+
+## Contact
+
+- Email: andrew@bitsllc.biz
+- Service area: Ardmore, Oklahoma and surrounding communities

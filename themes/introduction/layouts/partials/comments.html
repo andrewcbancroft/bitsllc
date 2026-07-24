@@ -1,9 +1,3 @@
-{{- if .Site.DisqusShortname }}
-    <div class="container disqus">
-        {{ template "_internal/disqus.html" . }}
-    </div>
-{{- end }}
-
 {{- if .Site.Params.giscus.repo }}
 <div class="container giscus my-4">
     <script src="https://giscus.app/client.js"

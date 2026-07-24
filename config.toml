@@ -1,4 +1,4 @@
-baseURL                          = "https://bitsllc.biz/"   # Your domain name. Must end with "/"
+baseURL                          = "https://www.bitsllc.biz/"   # Your domain name. Must end with "/". www is the canonical host (apex 301s to www on GitHub Pages)
 theme                            = "introduction"
 publishDir="docs"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
@@ -6,7 +6,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
-    themeStyle                   = "dark"                  # Choose "light" or "dark" or "auto"
+    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
@@ -23,7 +23,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         showLatest               = true                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         allPostsArchiveFormat    = true                    # show all posts in an archive format
-        # numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
         timeZone                 = "America/Chicago"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "en-US"                 # Language specific format to use
@@ -112,5 +112,5 @@ DefaultContentLanguage           = "en"                    # Default language fo
         weight           = 0
         title            = "BITS LLC"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
+            description  = "Technology consulting, iOS development education, and K-12 STEM programs in Ardmore, Oklahoma."   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
