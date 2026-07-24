@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# OS junk
+.DS_Store
+
+# Hugo local/dev artifacts
+/public/
+.hugo_build.lock
