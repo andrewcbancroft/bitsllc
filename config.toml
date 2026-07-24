@@ -112,5 +112,5 @@ DefaultContentLanguage           = "en"                    # Default language fo
         weight           = 0
         title            = "BITS LLC"
         [languages.en.params]
-            description  = "Technology consulting, iOS development education, and K-12 STEM programs in Ardmore, Oklahoma."   # Max 160 characters show in search results
+            description  = "Technology consulting, software and data education, and K-12 STEM programs in Ardmore, Oklahoma."   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)

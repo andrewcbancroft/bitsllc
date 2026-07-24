@@ -1,11 +1,11 @@
 # BITS LLC
 
-> BITS LLC (Bancroft Innovations and Technology Solutions LLC) is a technology services company based in Ardmore, Oklahoma. BITS provides technology consulting, iOS development education, and K-12 STEM education for Ardmore and surrounding communities.
+> BITS LLC (Bancroft Innovations and Technology Solutions LLC) is a technology services company based in Ardmore, Oklahoma. BITS provides technology consulting, software and data education, and K-12 STEM education for Ardmore and surrounding communities.
 
 ## Services
 
 - [Technology consulting](https://www.bitsllc.biz/): Data analytics and software development consulting backed by 15+ years of enterprise IT experience. Help choosing and implementing the right technology.
-- [iOS development education](https://www.bitsllc.biz/courses/): Video courses, written guides, workshops, and one-on-one mentoring for developers building iOS apps.
+- [Software & data education](https://www.bitsllc.biz/courses/): Video courses, written guides, workshops, and one-on-one mentoring spanning iOS, software development, and data analytics.
 - [K-12 STEM education](https://www.bitsllc.biz/): Tutoring, summer camps, and workshops for students learning technology.
 
 ## Courses

@@ -12,9 +12,9 @@ weight: 2
   </div>
   <div class="column is-one-third">
     <div class="service-card">
-      <span class="service-icon"><i class="fas fa-mobile-alt"></i></span>
-      <div class="service-title">iOS development education</div>
-      <div class="service-desc">Video courses, written guides, workshops, and one-on-one mentoring for developers building apps.</div>
+      <span class="service-icon"><i class="fas fa-laptop-code"></i></span>
+      <div class="service-title">Software &amp; data education</div>
+      <div class="service-desc">Video courses, written guides, workshops, and one-on-one mentoring spanning iOS, software development, and data analytics.</div>
     </div>
   </div>
   <div class="column is-one-third">

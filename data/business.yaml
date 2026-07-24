@@ -20,7 +20,7 @@ sameAs:
 services:
   - name: Technology consulting
     description: Data analytics and software development consulting backed by 15+ years of enterprise IT experience.
-  - name: iOS development education
-    description: Video courses, written guides, workshops, and one-on-one mentoring for developers building iOS apps.
+  - name: Software & data education
+    description: Video courses, written guides, workshops, and one-on-one mentoring spanning iOS, software development, and data analytics.
   - name: K-12 STEM education
     description: Tutoring, summer camps, and workshops for students learning technology.

@@ -1,7 +1,7 @@
 # Single source of truth for the home page FAQ section and the FAQPage JSON-LD schema.
 questions:
   - question: What services does BITS LLC offer?
-    answer: BITS offers technology consulting (data analytics and software development), iOS development education, and K-12 STEM education.
+    answer: BITS offers technology consulting (data analytics and software development), software and data education, and K-12 STEM education.
   - question: Where is BITS LLC located?
     answer: BITS is based in Ardmore, Oklahoma and serves Ardmore and surrounding communities. Consulting and education services are also available remotely.
   - question: How do I get a consultation?
