@@ -1,0 +1,6 @@
+# Site-level i18n overrides. Values here win over themes/introduction/i18n/*.toml.
+# NOTE: file is named for the locale (languageCode = "en-us"), not the language
+# key "en" — Hugo resolves translations by locale here, so i18n/en.toml is IGNORED.
+# "Home" reads better than the theme's default "main" for the back-to-landing link.
+[nav_main]
+    other = "Home"
