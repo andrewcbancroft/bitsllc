@@ -37,7 +37,7 @@ If some future version of GroceryRun ever collects anything (say, an optional fe
 
 You won't find out by surprise.
 
-Surprises are the thing this app exists to prevent.
+Surprises are the thing this app seeks to avoid.
 
 ## Contact
 

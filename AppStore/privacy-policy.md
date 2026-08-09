@@ -45,7 +45,7 @@ and call the change out in the release notes.
 
 You won't find out by surprise.
 
-Surprises are the thing this app exists to prevent.
+Surprises are the thing this app seeks to avoid.
 
 ## Contact
 
