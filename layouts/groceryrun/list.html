@@ -1,0 +1,85 @@
+{{ define "title" }}
+<img src="/img/groceryrun-icon.png" alt="GroceryRun app icon" width="112" height="112"
+     style="display:inline-block;width:112px;height:112px;border-radius:25px;box-shadow:0 6px 20px rgba(0,0,0,0.18);margin-bottom:1rem;">
+<h1 class="bold-title is-1">{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ define "main" }}
+<style>
+  .gr-accent { color: #2E9E5B; }
+  .gr-sub { font-size: 1.4rem; color: #2E9E5B; font-weight: 600; margin-bottom: 0.4rem; }
+  .gr-availability { text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; }
+  .gr-shots img { border-radius: 1.75rem; box-shadow: 0 8px 30px rgba(0,0,0,0.15); max-width: 260px; height: auto; }
+  .gr-shots figcaption { font-size: 0.9rem; opacity: 0.75; margin-top: 0.6rem; }
+  .gr-lists h2 { text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.85rem; opacity: 0.7; border-bottom: 1px solid rgba(0,0,0,0.12); padding-bottom: 0.4rem; }
+  .gr-links { margin-top: 2rem; }
+  .gr-links .gr-divider { display: inline-block; width: 1px; height: 1.3em; background: currentColor; opacity: 0.3; margin: 0 1rem; vertical-align: middle; }
+</style>
+
+<div class="container markdown top-pad">
+
+  <div class="has-text-centered">
+    <p class="gr-sub">{{ .Params.subtitle }}</p>
+    <p class="gr-availability gr-accent">Coming soon to the App Store for iPhone</p>
+  </div>
+
+  <div class="gr-shots columns is-centered is-vcentered" style="margin-top:1.5rem;">
+    {{ with .Resources.GetMatch "screenshot-running-total.png" }}
+    {{ $img := .Resize "520x webp q82" }}
+    <div class="column is-narrow has-text-centered">
+      <figure>
+        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy"
+             alt="GroceryRun showing an estimated total of $47.30 above four round buttons for $5, $1, 25 cents, and 5 cents.">
+        <figcaption>A running total, building as you shop.</figcaption>
+      </figure>
+    </div>
+    {{ end }}
+    {{ with .Resources.GetMatch "screenshot-subtraction-mode.png" }}
+    {{ $img := .Resize "520x webp q82" }}
+    <div class="column is-narrow has-text-centered">
+      <figure>
+        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy"
+             alt="GroceryRun with Subtraction Mode switched on, ready to remove a put-back item from the total.">
+        <figcaption>Subtraction Mode, for when something goes back on the shelf.</figcaption>
+      </figure>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ .Content }}
+
+  <div class="gr-lists columns" style="margin-top:1.5rem;">
+    <div class="column">
+      <h2>What you get</h2>
+      <div class="content">
+        <ul>
+          <li>Four big buttons that cover any price in a few taps</li>
+          <li>A running total of your grocery bill in big, clear type</li>
+          <li>Subtraction Mode for put-backs and changed minds</li>
+          <li>Clear, for starting your next run at $0.00</li>
+          <li>Full VoiceOver support if you use a screen reader</li>
+        </ul>
+      </div>
+    </div>
+    <div class="column">
+      <h2>What you don't get</h2>
+      <div class="content">
+        <ul>
+          <li>No account, no setup</li>
+          <li>No ads, no tracking, no data collection</li>
+          <li>No typing prices with a decimal point while your cart drifts into the cereal display</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p>I built GroceryRun because I needed it. My budget was often tight, and I needed a way to curb my grocery spending before I got to the register. GroceryRun solved that problem by keeping me on track as I shop. I hope it can do the same for you.</p>
+
+  <div class="gr-links has-text-centered">
+    <a class="button is-success is-outlined" href="/groceryrun/support/">Support</a>
+    <span class="gr-divider" aria-hidden="true"></span>
+    <a class="button is-success is-outlined" href="/groceryrun/privacy/">Privacy</a>
+  </div>
+
+</div>
+{{ end }}
