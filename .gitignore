@@ -7,3 +7,6 @@ node_modules/
 # Hugo local/dev artifacts
 /public/
 .hugo_build.lock
+
+# Local agent/editor config
+.claude/
