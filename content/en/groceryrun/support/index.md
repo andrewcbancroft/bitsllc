@@ -7,7 +7,11 @@ GroceryRun keeps a running total of your groceries while you shop, so the number
 
 ## How it works
 
-Tap the button closest to each price as the item goes into your cart: $5, $1, 25¢, or 5¢. An item priced at $1.49? Tap $1, 25¢, 25¢. Done.
+Tap the button closest to each price as the item goes into your cart: $5, $1, 25¢, or 5¢. 
+
+An item priced at $1.49? 
+
+Tap $1, 25¢, 25¢. Done.
 
 The goal is a close total, not an exact one. Staying within a few dollars of the register is what keeps a budget honest.
 
@@ -27,10 +31,8 @@ Right! And that's on purpose. GroceryRun doesn't know exact prices, and it doesn
 
 **"Is the app collecting my data?"**
 
-No. Nothing gets collected, and nothing gets sent anywhere. The whole policy fits on one page: [www.bitsllc.biz/groceryrun/privacy/](https://www.bitsllc.biz/groceryrun/privacy/)
+No. Nothing gets collected, and nothing gets sent anywhere. The whole policy fits on [one page](https://www.bitsllc.biz/groceryrun/privacy/).
 
 ## Contact
 
 Found a bug? Have an idea? Email me: [andrew@bitsllc.biz](mailto:andrew@bitsllc.biz)
-
-I read these myself. It's just me over here.
